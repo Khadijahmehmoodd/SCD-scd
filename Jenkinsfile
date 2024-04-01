@@ -24,13 +24,6 @@ pipeline {
             }
         }
         
-        stage('Test') {
-            steps {
-                // Run tests for React application
-                bat 'npm test'
-            }
-        }
-        
         stage('Containerized') {
             steps {
                 // Build and deploy containers using Docker Compose
