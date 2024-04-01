@@ -20,7 +20,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build React application
-                bat 'npm run build'
+                bat 'npm start'
             }
         }
         
