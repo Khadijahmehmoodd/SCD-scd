@@ -24,6 +24,7 @@ pipeline {
             }
         }
         
+        
         stage('Containerized') {
             steps {
                 // Build and deploy containers using Docker Compose
